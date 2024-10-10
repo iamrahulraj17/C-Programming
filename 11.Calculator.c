@@ -4,7 +4,7 @@ int main()
     int a,b;
     char o;
     printf("Enter the expression: ");
-    scnaf("%d%d%d",&a,&o,&b);
+    scanf("%d%d%d",&a,&o,&b);
     switch (o)
     {
         case '+':
